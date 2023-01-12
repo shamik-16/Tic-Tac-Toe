@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    >
+
+   <GridLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:columnCount="3"
+       >
+
+       <Button
+           android:id="@+id/btn_1"
+           android:padding="20dp"
+           android:layout_marginRight="10dp"
+           android:textColor="@color/white"
+           android:textStyle="bold"
+           android:textAlignment="center"
+           android:textSize="50sp"
+           android:onClick="Draw"
+           />
+       <Button
+           android:id="@+id/btn_2"
+           android:padding="20dp"
+           android:layout_marginRight="10dp"
+           android:textColor="@color/white"
+           android:textStyle="bold"
+           android:textAlignment="center"
+           android:textSize="50sp"
+           android:onClick="Draw"
+
+           />
+       <Button
+           android:id="@+id/btn_3"
+           android:padding="20dp"
+           android:textColor="@color/white"
+           android:textStyle="bold"
+           android:textAlignment="center"
+           android:textSize="50sp"
+           android:onClick="Draw"
+
+           />
+       <Button
+           android:id="@+id/btn_4"
+           android:padding="20dp"
+           android:layout_marginRight="10dp"
+           android:textColor="@color/white"
+           android:textStyle="bold"
+           android:textAlignment="center"
+           android:textSize="50sp"
+           android:onClick="Draw"
+
+           />
+       <Button
+           android:id="@+id/btn_5"
+           android:padding="20dp"
+           android:layout_marginRight="10dp"
+           android:textColor="@color/white"
+           android:textStyle="bold"
+           android:textAlignment="center"
+           android:textSize="50sp"
+           android:onClick="Draw"
+
+           />
+       <Button
+           android:id="@+id/btn_6"
+           android:padding="20dp"
+           android:textColor="@color/white"
+           android:textStyle="bold"
+           android:textAlignment="center"
+           android:textSize="50sp"
+           android:onClick="Draw"
+
+           />
+       <Button
+           android:id="@+id/btn_7"
+           android:padding="20dp"
+           android:layout_marginRight="10dp"
+           android:textColor="@color/white"
+           android:textStyle="bold"
+           android:textAlignment="center"
+           android:textSize="50sp"
+           android:onClick="Draw"
+
+           />
+       <Button
+           android:id="@+id/btn_8"
+           android:padding="20dp"
+           android:layout_marginRight="10dp"
+           android:textColor="@color/white"
+           android:textStyle="bold"
+           android:textAlignment="center"
+           android:textSize="50sp"
+           android:onClick="Draw"
+
+           />
+       <Button
+           android:id="@+id/btn_9"
+           android:padding="20dp"
+           android:textColor="@color/white"
+           android:textStyle="bold"
+           android:textAlignment="center"
+           android:textSize="50sp"
+           android:onClick="Draw"
+
+           />
+
+
+
+   </GridLayout>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RESULT"
+        android:textSize="35sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="#5A5757"
+        android:layout_marginTop="70dp"
+        />
+
+
+</LinearLayout>
+
+
